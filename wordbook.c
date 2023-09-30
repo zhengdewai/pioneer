@@ -34,7 +34,7 @@ int main(){
             printf("please input the English of ");printf("%s\n",word[j].Chi);
             char temword[20];
             scanf("%s",temword);
-            if(strcmp(temword,word[j].Eng))
+            if(strcmp(temword,word[j].Eng)==0)
                 printf("nb\n");
             else printf("sb\n");
         }
